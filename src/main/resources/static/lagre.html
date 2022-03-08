@@ -19,18 +19,30 @@
         </div>
     </nav>
     <div class="container">
-        <h3>Kunde</h3>
+        <h3>Lagre Kunde</h3>
         <form class="form">
             <div class="form-group">
                 <label for="navn">Navn</label>
-                <input type="text" id="navn" class="form-control">
+                <input type="text" id="navn">
             </div>
             <div class="form-group">
                 <lable for="address">Address</lable>
-                <input type="text" id="address" class="form-control">
+                <input type="text" id="address">
+            </div>
+            <div class="form-group">
+                Førekort? <input type="checkbox" name="forekort" id="forekort">
+            </div>
+            <div class="form-group">
+                Bil: Audi <input type="radio" name="bilvalg" value="audi">
+            </div>
+            <div class="form-group">
+                Bil: Volvo <input type="radio" name="bilvalg" value="volvo">
+            </div>
+            <div class="form-group">
+                <!--input as a button-->
+                <input type="button"  value="Registrer" id="registre" class="btn btn-primary">
             </div>
         </form>
-        <button id="registre" class="btn btn-primary">Registrer</button>
     </div>
 </body>
 </html>
